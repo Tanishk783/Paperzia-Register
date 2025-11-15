@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>📄Paperzia</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="sidebar">
+        <button class="tab-btn" onclick="openTab('home')">Home</button>
+        <button class="tab-btn" onclick="openTab('special')">What's Special</button>
+        <button class="tab-btn" onclick="openTab('register')">Register</button>
+    </div>
+
+    <div class="content">
+        <div id="home" class="tab-content">
+            <h1>--Welcome To Paperzia!--</h1>
+            <h2>
+                ✨ There is no rule that a country must have land!<br>
+                ✨ I’m 11 and building the world's first (maybe) ONLINE COUNTRY!<br>
+                ✨ Please support Paperzia!
+            </h2>
+        </div>
+
+        <div id="special" class="tab-content">
+            <h1>What's Special</h1>
+            <p id="special-text">What makes Paperzia special?
+                Paperzia is a virtual country and any day, you can be a citizen (Paperzian)!
+                the only rules are that You SHOULD respect others and what really makes Paperzia special is that You can be a citizen of Paperzia and any other at the same time!
+            </p>
+        </div>
+
+        <div id="register" class="tab-content">
+            <h1>Register as a Citizen</h1>
+            <p id="register-text">The only thing required in paperzia is CREATIVITY!</p>
+            <button onclick="registerCitizen()">Register via WhatsApp</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
